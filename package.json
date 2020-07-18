@@ -1,0 +1,16 @@
+{
+  "name": "fluent-timer",
+  "version": "1.0.0",
+  "description": "write timers as you pronounce them (setTimeout)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "setTimeout",
+    "timer",
+    "fluent"
+  ],
+  "author": "Moumen Alnemrat <momen.nemrat@gmail.com>",
+  "license": "MIT"
+}

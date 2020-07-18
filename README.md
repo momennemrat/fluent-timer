@@ -29,6 +29,12 @@ setTimeout(() => {
     
         console.log('this is after half a minute and one second');
         
+        setTimeout(() => {
+        
+            console.log('this is after half a minute and 3.5 second');
+        
+        }, 2500);
+        
     }, 30000);
     
 }, 1000);

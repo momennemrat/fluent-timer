@@ -30,8 +30,15 @@ const TimesInMilliSeconds = {
  *  hideThatthing();
  * });
  */
+
 const after = (time) => {
     return innerAfter(time);
+}
+
+const now = {
+    run: (fn, parameters) => {
+        return innerRun(0, fn, parameters, []);
+    }
 }
 
 const innerAfter = (time, initialTime, timersIds) => {
@@ -83,18 +90,14 @@ const innerRun = (timeInMilliSeconds, fn, parameters, timersIds) => {
     }
 }
 
-const now = {
-    run: (fn, parameters) => {
-        return innerRun(0, fn, parameters, []);
-    }
-}
-
-export {
-    after,
-    now
-};
-
+/**
+ * Helpers
+ */
 
 const CalculateRealNumberOfMilliSeconds = (time, multiplayer) => {
     return Math.floor(time * multiplayer);
 }
+
+exports.after = after;
+exports.now = now;
+

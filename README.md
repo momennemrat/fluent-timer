@@ -44,8 +44,8 @@ now.run(() => {
 ## Pass parameters
 
 > pass parameters as an array to the run function
-
+```javascript
 after(1).seconds.run((text) => {
     console.log(text, ' after one second');
-}, \[a]);
+}, ['fluent timer']);
 ```

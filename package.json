@@ -12,5 +12,9 @@
     "fluent"
   ],
   "author": "Moumen Alnemrat <momen.nemrat@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/momennemrat/fluent-timer.git"
+  }
 }

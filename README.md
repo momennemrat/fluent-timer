@@ -12,7 +12,12 @@ after(1).seconds.run(() => {
 
     console.log('this is after half a minute and one second');
     
-});
+})
+.then.after(2.5).seconds.run(() => {
+
+    console.log('this is after half a minute and 3.5 second');
+    
+})
 ```
 this is equal to:
 ```javascript

@@ -1,6 +1,6 @@
 {
   "name": "fluent-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "write timers as you pronounce them (setTimeout)",
   "main": "app.js",
   "scripts": {
